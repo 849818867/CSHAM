@@ -14,6 +14,7 @@ from draw import*
 from to_excel import*
 import numpy as np
 
+# 在train.py 中进行了修改
 print(tf.test.is_gpu_available())
 
 def load_db(batch_size):
